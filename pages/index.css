@@ -12,7 +12,7 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Kanit', Arial, sans-serif;
     font-weight: 400;
     margin: 0;
@@ -20,6 +20,13 @@ h1, h2, h3 {
 
 h2 {
     font-size: 40px;
+}
+
+h3 {
+    font-size: 16px;
+    letter-spacing: .43em;
+    text-transform: uppercase;
+    color: #6D7D7D;
 }
 
 p {
