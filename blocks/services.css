@@ -1,0 +1,42 @@
+.services {
+    padding: 100px 0;
+    width: 100%;
+}
+
+.services__service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: solid 1px #212828;
+    margin-bottom: 47px;
+    padding-bottom: 48px;
+}
+
+.services__service:last-child {
+    border: none;
+}
+
+.services__info {
+    max-width: 412px;
+}
+
+.services__text {
+    color: #6D7D7D;
+}
+
+.services__button {
+    background: none;
+    border: none;
+    color: #FFF;
+    font-family: 'Kanit', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: .43em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 22px;
+    cursor: pointer;
+}
