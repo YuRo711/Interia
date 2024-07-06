@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Kanit";
+    font-weight: 400;
+    src: url('./fonts/Kanit-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url('./fonts/Nunito-VariableFont_wght.ttf');
+}

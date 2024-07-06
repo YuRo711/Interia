@@ -1,6 +1,31 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
+@import url('../blocks/page.css');
+@import url('../blocks/header.css');
+@import url('../blocks/menu.css');
+@import url('../blocks/hero.css');
+@import url('../blocks/content.css');
+@import url('../blocks/about.css');
+
 
 html {
     scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    font-family: 'Kanit', Arial, sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Nunito', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+    margin: 0;  
 }

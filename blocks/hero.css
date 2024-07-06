@@ -1,0 +1,33 @@
+.hero {
+    min-height: 590px;
+    width: 1140px;
+    display: flex;
+}
+
+.hero__info {
+    margin-left: auto;
+    margin-top: 150px;
+}
+
+.hero__description {
+    margin-top: 10px;
+}
+
+.hero__play-button {
+    background: none;
+    height: 69px;
+    width: 69px;
+    border: none;
+    background-image: url('../images/Play\ Button.svg');
+    cursor: pointer;
+    margin-top: 64px;
+    transition: scale 0.2s ease-in-out;
+}
+
+.hero__play-button:hover {
+    scale: 1.05;
+}
+
+.hero__play-button:active {
+    scale: 1;
+}
