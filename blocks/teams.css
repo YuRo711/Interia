@@ -1,0 +1,101 @@
+.teams {
+    background-color: #121616;
+    width: 100vw;
+    position: relative;
+    top: -150px;
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teams__content {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teams__info {
+    max-width: 440px;
+}
+
+.teams__text {
+    margin-top: 18px;
+}
+
+.teams__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 22px;
+    align-items: center;
+}
+
+.teams__button {
+    font-family: 'Kanit', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: .43em;
+    text-transform: uppercase;
+    color: #FFF;
+    background: none;
+    border: solid 1px #6D7D7D;
+    box-shadow: none;
+    border-radius: 22px;
+    padding: 8px 28px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    transition: scale 0.2s ease-in-out;
+}
+
+.teams__button:hover {
+    background-color: #6D7D7D40;
+    scale: 1.05;
+}
+
+.teams__button:active {
+    background: none;
+    scale: 1;
+}
+
+
+.teams__reviews {
+    margin-top: 74px;
+}
+
+.teams__avatars {
+    display: flex;
+}
+
+.teams__avatar {
+    margin-left: -13px;
+}
+
+.teams__avatar:first-child {
+    margin: 0;
+}
+
+.teams__rating {
+    margin-top: 20px;
+    font-family: 'Nunito', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.teams__star {
+    background-image: url('../images/star.svg');
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.teams__star_half {
+    background-image: url('../images/star-half-alt.svg');
+}
+
+.teams__reviews-subtitle {
+    margin-top: 10px;
+}

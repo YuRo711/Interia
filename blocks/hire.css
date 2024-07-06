@@ -5,6 +5,7 @@
     border-radius: 50px 50px 0;
     overflow: hidden;
     display: flex;
+    z-index: 1;
 }
 
 .hire__info {
@@ -28,4 +29,14 @@
     transition: background-color 0.2s ease-in-out;
     transition: scale 0.2s ease-in-out;
     margin-top: 30px;
+}
+
+.hire__button:hover {
+    background-color: #6D7D7D40;
+    scale: 1.05;
+}
+
+.hire__button:active {
+    background: none;
+    scale: 1;
 }
