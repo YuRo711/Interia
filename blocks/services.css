@@ -28,15 +28,12 @@
 .services__button {
     background: none;
     border: none;
-    color: #FFF;
-    font-family: 'Kanit', Arial, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: .43em;
-    text-transform: uppercase;
     display: flex;
     align-items: center;
     gap: 8px;
     margin-top: 22px;
-    cursor: pointer;
+}
+
+.services__button:hover {
+    background: none;
 }
