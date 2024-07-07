@@ -1,0 +1,22 @@
+.footer {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 52px 0;
+    display: flex;
+}
+
+.footer__links {
+    margin-left: auto;
+    display: flex;
+    gap: 92px;
+}
+
+.footer__link {
+    font-family: 'Kanit', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: .43em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #6D7D7D;
+}
