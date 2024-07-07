@@ -31,3 +31,14 @@
 .hero__play-button:active {
     scale: 1;
 }
+
+.hero__scroll {
+    font-family: 'Kanit', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: .43em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    writing-mode:sideways-lr;
+}
