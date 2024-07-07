@@ -1,0 +1,33 @@
+.newsletter {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.newsletter__input {
+    margin-left: auto;
+    background: none;
+    border: none;
+    border-bottom: solid 1px #6D7D7D;
+    font-family: 'Nunito', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+    padding: 9px 27px;
+    width: 512px;
+}
+
+.newsletter__input::placeholder {
+    opacity: 1;
+}
+
+.newsletter__input:focus {
+    outline: none;
+}
+
+.newsletter__button {
+    border-radius: 20px;
+    padding: 8px 46px;
+    margin-left: 24px;
+}

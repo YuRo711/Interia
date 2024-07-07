@@ -4,6 +4,7 @@
     align-items: center;
     padding: 100px 0 50px;
     width: 100%;
+    border-bottom: solid 1px #212828;
 }
 
 .blog__articles {
