@@ -14,6 +14,7 @@
 @import url('../blocks/blog.css');
 @import url('../blocks/article.css');
 @import url('../blocks/newsletter.css');
+@import url('../blocks/contacts.css');
 
 
 html {
@@ -29,6 +30,14 @@ h1, h2, h3, h4 {
     font-family: 'Kanit', Arial, sans-serif;
     font-weight: 400;
     margin: 0;
+}
+
+h1 {
+    font-family: 'Kanit', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: .43em;
+    text-transform: uppercase;
 }
 
 h2 {
