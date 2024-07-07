@@ -1,0 +1,24 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.article__text {
+    color: #6D7D7D;
+    max-width: 326px;
+}
+
+.article__button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 35px;
+}
+
+.article__button:hover {
+    background: none;
+}
