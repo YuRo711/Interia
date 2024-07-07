@@ -1,0 +1,9 @@
+.gallery {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery__image {
+    max-width: 100%;
+}

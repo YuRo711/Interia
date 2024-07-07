@@ -10,10 +10,16 @@
 @import url('../blocks/teams.css');
 @import url('../blocks/companies.css');
 @import url('../blocks/services.css');
+@import url('../blocks/gallery.css');
 
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
